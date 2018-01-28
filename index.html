@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="bower_components/angular-spinkit/build/angular-spinkit.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="bower_components/angular-bootstrap-nav-tree/dist/abn_tree.css">
+
+    <link rel="stylesheet" href="bower_components/ng-table/dist/ng-table.css" />
+    <link rel="stylesheet" href="bower_components/ng-notify/dist/ng-notify.min.css" />
+
     <link rel="stylesheet" href="css/crownstack.css">
 
     <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
@@ -35,21 +39,41 @@
 
     <script src="bower_components/angular-bootstrap-nav-tree/dist/abn_tree_directive.js"></script>
     <script src="bower_components/ng-letter-avatar/ngletteravatar.js"></script>
+    <script src="bower_components/ng-table/dist/ng-table.js"></script>
+    <script src="bower_components/ngstorage/ngStorage.js"></script>
+    <script src="bower_components/ng-notify/dist/ng-notify.min.js"></script>
+
+
 
     <!-- project files -->
+
+    <script src="app/env.js"></script>
     <script src="app/app.js"></script>
+    <script src="app/login/auth.module.js"></script>
+
+    <script src="app/auth/principal.service.js"></script>
+    <script src="app/auth/authorization.service.js"></script>
+    <script src="app/auth/signout.controller.js"></script>
+
+    <script src="app/auth/constant.js"></script>
+
     <script src="app/config.router.js"></script>
 
     <script src="directives/letter-icon.js"></script>
 
+
+
     <script src="app/layout/Layout.controller.js"></script>
     <script src="app/layout/layout.service.js"></script>
 
-    <script src="app/machines/machine.controller.js"></script>
-    <script src="app/machines/machine.service.js"></script>
+    <script src="app/user-management/user-management.controller.js"></script>
+    <script src="app/user-management/user-management.service.js"></script>
 
-    <script src="app/machine-type/machine-type.controller.js"></script>
-    <script src="app/machine-type/machine-type.service.js"></script>
+    <script src="app/login/login.controller.js"></script>
+    <script src="app/login/login.service.js"></script>
+
+    <script src="app/dashboard/dashboard.controller.js"></script>
+    <script src="app/dashboard/dashboard.service.js"></script>
 
 </body>
 </html>

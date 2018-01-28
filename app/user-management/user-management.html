@@ -1,0 +1,91 @@
+<div style="margin-top: 10px" class="well"><strong> <i class="fa fa-home"></i> User Management </strong></div>
+
+<!--<div class="progress">-->
+    <!--<div class="progress-bar" role="progressbar" aria-valuenow="100"-->
+         <!--aria-valuemin="0" aria-valuemax="100" style="width:100%">-->
+    <!--</div>-->
+<!--</div>-->
+
+<div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-white">
+                <div class="panel-body">
+                    <!--<div class="col-lg-12 col-md-12">-->
+                    <!--<div class="panel panel-white">-->
+                    <!--<div class="panel-body">-->
+                    <div class="row margin-bottom-10">
+                        <div class="col-md-12">
+                            <a ng-click="vm.tableParams.filter({})"
+                               class="btn btn-wide btn-warning pull-right"><i class="ti-filter"></i> Clear
+                                Filters</a>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table ng-table="vm.tableParams" show-filter="true" class="table table-striped text-center">
+                            <tr ng-repeat="row in $data">
+                                <td class="center" data-title="'Image'">
+                                    <img ng-if="row.profilePic != null" ng-src="{{__env.dataServerUrl + '/user/' +row.profilePic}}"
+                                         class="media-object" alt="image"/>
+                                    <img ng-if="row.profilePic == null" ng-src="images/images.png"
+                                         class="media-object" alt="image"/></td>
+                                <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">
+                                    {{row.name}}
+                                </td>
+                                <td data-title="'Email'">
+                                    {{row.email}}
+                                </td>
+                                <td data-title="'Mobile'" sortable="'mobile'" filter="{ 'mobile': 'text' }">{{row.mobile}}</td>
+                                <td data-title="'Points'">{{row.points}}</td>
+                                <td data-title="'History'">
+                                    <div ng-repeat="history in row.history">{{history.token}}
+                                </div></td>
+
+                                <td data-title="'Add Points'" class="center">
+                                    <div class="visible-md visible-lg hidden-sm hidden-xs">
+                                        <a ng-click="vm.openModal(row)" class="btn btn-transparent btn-xs"
+                                           tooltip-placement="top"
+                                           uib-tooltip="Add Points"><i class="fa fa-pencil"></i></a>
+                                    </div>
+                                    <div class="visible-xs visible-sm hidden-md hidden-lg">
+                                        <div class="btn-group" uib-dropdown>
+                                            <button type="button" class="btn btn-primary btn-sm dropdown-toggle"
+                                                    uib-dropdown-toggle>
+                                                <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                            </button>
+                                            <ul class="dropdown-menu pull-right dropdown-light" role="menu">
+                                                <li>
+                                                    <a ng-click="vm.openModal(row)" > Add Points </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                </div>
+            </div>
+</div>
+
+<script type="text/ng-template" id="addPoints.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Add Points</h3>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">Current Points</div>
+            <div class="col-md-6"> Add Points</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><input type="number" ng-disabled="true" ng-model="user.points"></div>
+            <div class="col-md-6"><input type="number" ng-model="addedPoints"></div>
+        </div>
+        <!--<label>Current Points</label>-->
+        <!--<input type="number" ng-disabled="true" ng-model="user.points"> + <input type="number" ng-disabled="true" ng-model="user.points">-->
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-success" ng-click="ok()">OK</button>
+        <button class="btn btn-danger " ng-click="cancel()">Cancel</button>
+    </div>
+</script>

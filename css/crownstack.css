@@ -45,3 +45,38 @@ body{
     overflow-y: auto;
 }
 
+.login-box {
+    width:250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.nav-bar-horizontal {
+    margin-right: 45px;
+}
+
+.nav-bar-horizontal a {
+    color: white;
+}
+
+.nav-bar-horizontal a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar-horizontal a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-bar-horizontal a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.privacy-policy {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+

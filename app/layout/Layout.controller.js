@@ -13,10 +13,6 @@
 
         function activate() {
 
-            navService.getData().then(function (response) {
-                if(response.status ==200)
-                 vm.nav = response.data.state;
-            })
         }
     }
 }());

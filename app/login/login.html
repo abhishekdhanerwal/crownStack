@@ -1,0 +1,38 @@
+<div class="row text-center">
+    <img width="450px" src="images/init.jpg">
+</div>
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8"><hr></div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="row text-center">
+
+    <div class="login-box">
+    <div class="well">
+        <ng-form name="vm.form" role="form" id="form" novalidate>
+            <label>Mobile</label>
+            <div class="form-group">
+                <input type="number" class="form-control" name="mobile" placeholder="mobile" ng-model="vm.user.mobile">
+            </div>
+            <label>Password</label>
+            <div class="form-group form-actions">
+
+                <input type="password" class="form-control password" name="password" placeholder="Password"
+                       ng-model="vm.user.password">
+
+            </div>
+        </ng-form>
+    </div>
+        <button type="button" class="btn btn-success btn-block" ng-click="vm.login()">
+            Log In
+        </button>
+    </div>
+</div>
+
+<div class="row">
+    <div class="text-center" ui-sref="auth.privacy">
+        <a>Privacy Policy</a>
+    </div>
+</div>
