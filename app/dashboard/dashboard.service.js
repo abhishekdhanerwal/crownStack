@@ -10,8 +10,8 @@
 
         var service = {};
 
-        service.getUserList = function () {
-            var promise = $http.get(__env.dataServerUrl + '/user/list')
+        service.getQuestions = function () {
+            var promise = $http.get(__env.dataServerUrl + '/questions/view')
                 .then(
                     function (data) {
                         return data;
@@ -22,8 +22,8 @@
             return promise;
         };
 
-        service.updateuser = function (id , user) {
-            var promise = $http.put(__env.dataServerUrl + '/user/updateDetails/' + id , user)
+        service.updateQuestion = function (time , question) {
+            var promise = $http.put(__env.dataServerUrl + '/questions/update?time=' + time , question)
                 .then(
                     function (data) {
                         return data;

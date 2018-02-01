@@ -1,7 +1,162 @@
-<div class="row">
-    <div class="text-center">
-        <h1>Welcome To</h1>
-        <h3> Rental Management System </h3>
-        <h3> Please select the location </h3>
+<div class="dashboard-container">
+
+    <div class="row">
+
+        <div class="col-md-1 col-lg-1">
+            </div>
+
+    <div class="col-md-2 col-lg-2">
+            <div class="panel panel-white">
+                <div class="panel-heading text-center">
+                    <h4>Total Users</h4><hr>
+                    <h2 style="color: darkviolet"><strong>12976</strong></h2>
+                </div>
+                <div class="panel-body">
+                    <div class="row text-center">
+                        <h1><i style="color: pink" class="fa fa-female large-letters"></i><i style="color: blue" class="fa fa-male large-letters"></i></h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 col-lg-8">
+            <div class="panel panel-white">
+            <uib-tabset style="margin:10px" class="tabbable no-padding no-margin">
+                <uib-tab heading="Current Questions" class="padding-top-5 padding-left-5">
+
+                    <div style="margin-top: 20px; margin-left: 10px">
+                        <div>
+                            Morning
+                        </div>
+                        <div class="well well-sm">
+                            {{vm.questions.morning}}
+                        </div>
+                        <div>
+                            Evening
+                        </div>
+                        <div class="well well-sm">
+                            {{vm.questions.evening}}
+                        </div>
+                    </div>
+                </uib-tab>
+                <uib-tab heading="Change Questions" class="padding-top-5">
+                    <div style="margin-top: 20px; margin-left: 10px">
+                        <div>
+                            Morning
+                        </div><br>
+                        <div>
+                           <span>
+                               <input type="text" ng-model="vm.morning.question">
+                                <button type="button" class="btn btn-xs btn-wide btn-o btn-info" ng-click="vm.updateQuestion('morning' , vm.morning)">
+                                    Update
+                                </button>
+                           </span>
+                        </div><br>
+                        <div>
+                            Evening
+                        </div><br>
+                        <div>
+                            <span>
+                               <input type="text" ng-model="vm.evening.question">
+                                <button type="button" class="btn btn-xs btn-wide btn-o btn-info" ng-click="vm.updateQuestion('evening' , vm.evening)">
+                                    Update
+                                </button>
+                           </span>
+                        </div>
+                    </div>
+                </uib-tab>
+            </uib-tabset>
+                </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-lg-5">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="panel panel-white no-radius no-border">
+                        <div class="panel-body">
+                            <div class="partition-light-grey padding-15 text-center margin-bottom-25">
+                                <h4 class="no-margin">Monthly Statistics</h4>
+                                <span class="text-light">based on the major browsers</span>
+                            </div>
+                            <v-accordion class="vAccordion--default">
+                                <!-- add expanded attribute to open first section -->
+                                <v-pane expanded>
+                                    <v-pane-header>
+                                        This Month
+                                    </v-pane-header>
+                                    <v-pane-content>
+                                        <table class="table margin-bottom-5">
+                                            <tbody>
+                                            <tr>
+                                                <td>Google Chrome</td>
+                                                <td class="center">4909</td>
+                                                <td><i class="fa fa-caret-down text-red"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mozilla Firefox</td>
+                                                <td class="center">3857</td>
+                                                <td><i class="fa fa-caret-up text-green"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Safari</td>
+                                                <td class="center">1789</td>
+                                                <td><i class="fa fa-caret-up text-green"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Internet Explorer</td>
+                                                <td class="center">612</td>
+                                                <td><i class="fa fa-caret-down text-red"></i></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </v-pane-content>
+                                </v-pane>
+                                <v-pane>
+                                    <v-pane-header>
+                                        Last Month
+                                    </v-pane-header>
+                                    <v-pane-content>
+                                        <table class="table margin-bottom-5">
+                                            <tbody>
+                                            <tr>
+                                                <td>Google Chrome</td>
+                                                <td class="center">5228</td>
+                                                <td><i class="fa fa-caret-up text-green"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Mozilla Firefox</td>
+                                                <td class="center">2853</td>
+                                                <td><i class="fa fa-caret-up text-green"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Safari</td>
+                                                <td class="center">1948</td>
+                                                <td><i class="fa fa-caret-up text-green"></i></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Internet Explorer</td>
+                                                <td class="center">456</td>
+                                                <td><i class="fa fa-caret-down text-red"></i></td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </v-pane-content>
+                                </v-pane>
+                            </v-accordion>
+                        </div>
+                        <div class="panel-footer border-light">
+                            <p class="no-margin">
+                                <a href="#"><i class="fa fa-arrow-circle-o-down text-green"></i></a>
+                                <span class="text-light margin-left-10">Show more details </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>

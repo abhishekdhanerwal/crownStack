@@ -2,54 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33591c49-f572-400f-9098-eac934cc67d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/machine-type/machine-type.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/machine-type/machine-type.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/machine-type/machine-type.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/data.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/booms/boom-header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/booms/boom1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/booms/boom2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/booms/boom3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/booms/boom4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/carry-deck-crane/carry-header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/carry-deck-crane/carry1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/carry-deck-crane/carry2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forklift/fork-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forklift/fork1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forklift/fork2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forklift/fork3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/forklift/fork4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/personal-cart/cart1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/personal-cart/cart2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/personal-cart/cart3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/personal-cart/cart4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/personal-cart/personal-header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor/scissor-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor/scissor1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor/scissor2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor/scissor3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/scissor/scissor4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/single-man-lift/single1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/single-man-lift/single3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/single-man-lift/single4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/single-man-lift/singleman-header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tele-handler/tele1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tele-handler/tele2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tele-handler/tele3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tele-handler/telehandler-header.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/tele-handler/telel4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/machine-type.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/machine.json" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/machines/machine.controller.js" afterPath="$PROJECT_DIR$/app/user-management/user-management.controller.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/machines/machine.service.js" afterPath="$PROJECT_DIR$/app/user-management/user-management.service.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/machines/machines.html" afterPath="$PROJECT_DIR$/app/user-management/user-management.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/welcome/welcome.html" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.js" afterPath="$PROJECT_DIR$/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config.router.js" afterPath="$PROJECT_DIR$/app/config.router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/layout/Layout.controller.js" afterPath="$PROJECT_DIR$/app/layout/Layout.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dashboard/dashboard.controller.js" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dashboard/dashboard.html" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/dashboard/dashboard.service.js" afterPath="$PROJECT_DIR$/app/dashboard/dashboard.service.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/env.js" afterPath="$PROJECT_DIR$/app/env.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/layout/layout.html" afterPath="$PROJECT_DIR$/app/layout/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login/login.html" afterPath="$PROJECT_DIR$/app/login/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/.bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-csp.css" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-csp.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.js" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-bootstrap/ui-bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/crownstack.css" afterPath="$PROJECT_DIR$/css/crownstack.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -74,94 +42,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dashboard.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dashboard.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config.router.js">
+      <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/login/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="17" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="privacy.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/auth/privacy.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="env.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/env.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crownstack.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/crownstack.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/layout/layout.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Layout.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/layout/Layout.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/layout/layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="135">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
               <folding>
-                <marker date="1516383893303" expanded="false" signature="1049:1068" ph="..." />
-                <marker date="1516383893303" expanded="false" signature="1247:1264" ph="..." />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#1;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#v-pane#0;n#v-accordion#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -170,8 +73,8 @@
       <file leaf-file-name="dashboard.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <state relative-caret-position="15">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -215,22 +118,23 @@
         <option value="$PROJECT_DIR$/app/login/login.controller.js" />
         <option value="$PROJECT_DIR$/app/auth/principal.service.js" />
         <option value="$PROJECT_DIR$/app/auth/authorization.service.js" />
-        <option value="$PROJECT_DIR$/app/layout/layout.html" />
         <option value="$PROJECT_DIR$/app/auth/logout.controller.js" />
         <option value="$PROJECT_DIR$/app/auth/signout.controller.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/app/user-management/user-management.html" />
         <option value="$PROJECT_DIR$/app/user-management/user-management.service.js" />
         <option value="$PROJECT_DIR$/app/user-management/user-management.controller.js" />
-        <option value="$PROJECT_DIR$/app/dashboard/dashboard.service.js" />
-        <option value="$PROJECT_DIR$/app/dashboard/dashboard.controller.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/layout/Layout.controller.js" />
         <option value="$PROJECT_DIR$/app/config.router.js" />
-        <option value="$PROJECT_DIR$/app/login/login.html" />
-        <option value="$PROJECT_DIR$/css/crownstack.css" />
         <option value="$PROJECT_DIR$/app/auth/privacy.html" />
         <option value="$PROJECT_DIR$/app/env.js" />
+        <option value="$PROJECT_DIR$/app/login/login.html" />
+        <option value="$PROJECT_DIR$/css/crownstack.css" />
+        <option value="$PROJECT_DIR$/app/layout/layout.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/dashboard/dashboard.html" />
+        <option value="$PROJECT_DIR$/app/dashboard/dashboard.controller.js" />
+        <option value="$PROJECT_DIR$/app/dashboard/dashboard.service.js" />
       </list>
     </option>
   </component>
@@ -348,42 +252,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="user-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="login" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -406,28 +274,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crownStack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -435,7 +285,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/packet-project" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -522,12 +372,13 @@
       <workItem from="1516341241857" duration="6229000" />
       <workItem from="1516371086905" duration="5087000" />
       <workItem from="1516445769855" duration="3200000" />
-      <workItem from="1517123482203" duration="858000" />
+      <workItem from="1517123482203" duration="1263000" />
+      <workItem from="1517220565749" duration="9099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47652000" />
+    <option name="totallyTimeSpent" value="57156000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,8 +488,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1516383893303" expanded="false" signature="1049:1068" ph="..." />
-            <marker date="1516383893303" expanded="false" signature="1247:1264" ph="..." />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1517221266839" expanded="false" signature="1049:1068" ph="..." />
+            <marker date="1517221266839" expanded="false" signature="1247:1264" ph="..." />
           </folding>
         </state>
       </provider>
@@ -723,13 +575,6 @@
     <entry file="file://$PROJECT_DIR$/images/init.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/login/auth.module.js">
@@ -817,52 +662,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
+    <entry file="file://$PROJECT_DIR$/app/auth/privacy.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="296">
+          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.service.js">
+    <entry file="file://$PROJECT_DIR$/app/login/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.controller.js">
+    <entry file="file://$PROJECT_DIR$/app/layout/layout.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="69" column="74" selection-start-line="69" selection-start-column="74" selection-end-line="69" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/layout/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <marker date="1516383893303" expanded="false" signature="1049:1068" ph="..." />
-            <marker date="1516383893303" expanded="false" signature="1247:1264" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,50 +710,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/layout/layout.service.js">
+    <entry file="file://$PROJECT_DIR$/css/crownstack.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+        <state relative-caret-position="265">
+          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/layout/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="50" column="43" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <marker date="1517221266839" expanded="false" signature="1049:1068" ph="..." />
+            <marker date="1517221266839" expanded="false" signature="1247:1264" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#1;n#h1#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#uib-tab#0;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#uib-tab#1;n#uib-tabset#0;n#div#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#v-pane#0;n#v-accordion#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="30" />
+        <state relative-caret-position="165">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/login/login.html">
+    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="17" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="15">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/crownstack.css">
+    <entry file="file://$PROJECT_DIR$/app/dashboard/dashboard.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth/privacy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="59" />
           <folding />
         </state>
       </provider>
