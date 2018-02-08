@@ -5,7 +5,7 @@
   var environment = "qaa"; //can be dev, test or prod.qa
 
   if(environment === "qa"){
-    window.__env.dataServerUrl = 'https://crackthecrock-server.herokuapp.com';
+    window.__env.dataServerUrl = 'http://ec2-18-218-227-128.us-east-2.compute.amazonaws.com:8080';
     window.__env.baseUrl = '/';
     window.__env.enableDebug = true;
     // window.__env.user = "";

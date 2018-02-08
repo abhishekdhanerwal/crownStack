@@ -9,6 +9,10 @@
 <div class="row">
         <div class="col-md-12">
             <div class="panel panel-white">
+
+                <uib-tabset style="margin:10px" class="tabbable no-padding no-margin">
+                    <uib-tab heading="Add Points" class="padding-top-5 padding-left-5">
+
                 <div class="panel-body">
                     <!--<div class="col-lg-12 col-md-12">-->
                     <!--<div class="panel panel-white">-->
@@ -64,6 +68,178 @@
                         </table>
                     </div>
                 </div>
+
+                    </uib-tab>
+                    <uib-tab heading="Send Money to Paytm" class="padding-top-5">
+                        <div class="panel-body">
+                            <!--<div class="col-lg-12 col-md-12">-->
+                            <!--<div class="panel panel-white">-->
+                            <!--<div class="panel-body">-->
+                            <div class="row margin-bottom-10">
+                                <div class="col-md-12">
+                                    <a ng-click="vm.tableParamsPaytm.filter({})"
+                                       class="btn btn-wide btn-warning pull-right"><i class="ti-filter"></i> Clear
+                                        Filters</a>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table ng-table="vm.tableParamsPaytm" show-filter="true" class="table table-striped text-center">
+                                    <tr ng-repeat="row in $data">
+                                        <td class="center" data-title="'Image'">
+                                            <img ng-if="row.userId.profilePic != null" ng-src="{{__env.dataServerUrl + '/user/' +row.userId.profilePic}}"
+                                                 class="media-object" alt="image"/>
+                                            <img ng-if="row.userId.profilePic == null" ng-src="images/images.png"
+                                                 class="media-object" alt="image"/></td>
+                                        <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">
+                                            {{row.name}}
+                                        </td>
+                                        <td data-title="'Email'">
+                                            {{row.userId.email}}
+                                        </td>
+                                        <td data-title="'Mobile'" sortable="'mobile'" filter="{ 'mobile': 'text' }">{{row.mobile}}</td>
+                                        <td data-title="'Points'">{{row.points}}</td>
+                                        <td data-title="'Points to Paytm'">{{row.amount}}</td>
+                                        <td data-title="'Date'">{{row.date | date: dd-MMM-yyyy}}</td>
+
+                                        <td data-title="'Add Points'" class="center">
+                                            <div class="visible-md visible-lg hidden-sm hidden-xs">
+                                                <a ng-click="vm.openPaytmModal(row)" class="btn btn-transparent btn-xs"
+                                                   tooltip-placement="top"
+                                                   uib-tooltip="Add Points"><i class="fa fa-pencil"></i></a>
+                                            </div>
+                                            <div class="visible-xs visible-sm hidden-md hidden-lg">
+                                                <div class="btn-group" uib-dropdown>
+                                                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle"
+                                                            uib-dropdown-toggle>
+                                                        <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right dropdown-light" role="menu">
+                                                        <li>
+                                                            <a ng-click="vm.openPaytmModal(row)" > Add Points </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </uib-tab>
+                    <uib-tab heading="Send Money to Bank" class="padding-top-5">
+                        <div class="panel-body">
+                            <!--<div class="col-lg-12 col-md-12">-->
+                            <!--<div class="panel panel-white">-->
+                            <!--<div class="panel-body">-->
+                            <div class="row margin-bottom-10">
+                                <div class="col-md-12">
+                                    <a ng-click="vm.tableParamsBank.filter({})"
+                                       class="btn btn-wide btn-warning pull-right"><i class="ti-filter"></i> Clear
+                                        Filters</a>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table ng-table="vm.tableParamsBank" show-filter="true" class="table table-striped text-center">
+                                    <tr ng-repeat="row in $data">
+                                        <td class="center" data-title="'Image'">
+                                            <img ng-if="row.userId.profilePic != null" ng-src="{{__env.dataServerUrl + '/user/' +row.userId.profilePic}}"
+                                                 class="media-object" alt="image"/>
+                                            <img ng-if="row.userId.profilePic == null" ng-src="images/images.png"
+                                                 class="media-object" alt="image"/></td>
+                                        <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">
+                                            {{row.name}}
+                                        </td>
+                                        <td data-title="'Email'">
+                                            {{row.userId.email}}
+                                        </td>
+                                        <td data-title="'Mobile'" sortable="'mobile'" filter="{ 'mobile': 'text' }">{{row.mobile}}</td>
+                                        <td data-title="'Points'">{{row.points}}</td>
+                                        <td data-title="'Points to Paytm'">{{row.amount}}</td>
+                                        <td data-title="'Date'">{{row.date | date: dd-MMM-yyyy}}</td>
+
+                                        <td data-title="'Add Points'" class="center">
+                                            <div class="visible-md visible-lg hidden-sm hidden-xs">
+                                                <a ng-click="vm.openPaytmModal(row)" class="btn btn-transparent btn-xs"
+                                                   tooltip-placement="top"
+                                                   uib-tooltip="Add Points"><i class="fa fa-pencil"></i></a>
+                                            </div>
+                                            <div class="visible-xs visible-sm hidden-md hidden-lg">
+                                                <div class="btn-group" uib-dropdown>
+                                                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle"
+                                                            uib-dropdown-toggle>
+                                                        <i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right dropdown-light" role="menu">
+                                                        <li>
+                                                            <a ng-click="vm.openPaytmModal(row)" > Add Points </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </uib-tab>
+                    <uib-tab heading="Payment Completed" class="padding-top-5">
+                        <div class="panel-body">
+                            <!--<div class="col-lg-12 col-md-12">-->
+                            <!--<div class="panel panel-white">-->
+                            <!--<div class="panel-body">-->
+                            <div class="row margin-bottom-10">
+                                <div class="col-md-12">
+                                    <a ng-click="vm.tableParamsCompleted.filter({})"
+                                       class="btn btn-wide btn-warning pull-right"><i class="ti-filter"></i> Clear
+                                        Filters</a>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table ng-table="vm.tableParamsCompleted" show-filter="true" class="table table-striped text-center">
+                                    <tr ng-repeat="row in $data">
+                                        <td class="center" data-title="'Image'">
+                                            <img ng-if="row.userId.profilePic != null" ng-src="{{__env.dataServerUrl + '/user/' +row.userId.profilePic}}"
+                                                 class="media-object" alt="image"/>
+                                            <img ng-if="row.userId.profilePic == null" ng-src="images/images.png"
+                                                 class="media-object" alt="image"/></td>
+                                        <td data-title="'Name'" sortable="'name'" filter="{ 'name': 'text' }">
+                                            {{row.name}}
+                                        </td>
+                                        <td data-title="'Email'">
+                                            {{row.userId.email}}
+                                        </td>
+                                        <td data-title="'Mobile'" sortable="'mobile'" filter="{ 'mobile': 'text' }">{{row.mobile}}</td>
+                                        <td data-title="'Points'">{{row.points}}</td>
+                                        <td data-title="'Points to Wallet'">{{row.amount}}</td>
+                                        <td data-title="'Payment Type'">{{row.type}}</td>
+                                        <td data-title="'Date'">{{row.date | date: dd-MMM-yyyy}}</td>
+
+                                        <!--<td data-title="'Add Points'" class="center">-->
+                                            <!--<div class="visible-md visible-lg hidden-sm hidden-xs">-->
+                                                <!--<a ng-click="vm.openPaytmModal(row)" class="btn btn-transparent btn-xs"-->
+                                                   <!--tooltip-placement="top"-->
+                                                   <!--uib-tooltip="Add Points"><i class="fa fa-pencil"></i></a>-->
+                                            <!--</div>-->
+                                            <!--<div class="visible-xs visible-sm hidden-md hidden-lg">-->
+                                                <!--<div class="btn-group" uib-dropdown>-->
+                                                    <!--<button type="button" class="btn btn-primary btn-sm dropdown-toggle"-->
+                                                            <!--uib-dropdown-toggle>-->
+                                                        <!--<i class="fa fa-cog"></i>&nbsp;<span class="caret"></span>-->
+                                                    <!--</button>-->
+                                                    <!--<ul class="dropdown-menu pull-right dropdown-light" role="menu">-->
+                                                        <!--<li>-->
+                                                            <!--<a ng-click="vm.openPaytmModal(row)" > Add Points </a>-->
+                                                        <!--</li>-->
+                                                    <!--</ul>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</td>-->
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </uib-tab>
+                </uib-tabset>
                 </div>
             </div>
 </div>
@@ -79,7 +255,7 @@
         </div>
         <div class="row">
             <div class="col-md-6"><input type="number" ng-disabled="true" ng-model="user.points"></div>
-            <div class="col-md-6"><input type="number" ng-model="addedPoints"></div>
+            <div class="col-md-6"><input type="number" ng-model="addedPoints" ng-disabled="disableButton"></div>
         </div>
         <!--<label>Current Points</label>-->
         <!--<input type="number" ng-disabled="true" ng-model="user.points"> + <input type="number" ng-disabled="true" ng-model="user.points">-->
