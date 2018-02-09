@@ -265,3 +265,25 @@
         <button class="btn btn-danger " ng-click="cancel()">Cancel</button>
     </div>
 </script>
+
+<script type="text/ng-template" id="removePoints.html">
+    <div class="modal-header">
+        <h3 class="modal-title">Subtract Points</h3>
+    </div>
+    <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6">Current Points</div>
+            <div class="col-md-6"> Subtract Points</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6"><input type="number" ng-disabled="true" ng-model="user.points"></div>
+            <div class="col-md-6"><input type="number" ng-model="addedPoints" ng-disabled="disableButton"></div>
+        </div>
+        <!--<label>Current Points</label>-->
+        <!--<input type="number" ng-disabled="true" ng-model="user.points"> + <input type="number" ng-disabled="true" ng-model="user.points">-->
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-success" ng-click="ok()">OK</button>
+        <button class="btn btn-danger " ng-click="cancel()">Cancel</button>
+    </div>
+</script>

@@ -8,7 +8,7 @@
 
     function routerConfig($stateProvider , $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise("/app/dashboard");
+        // $urlRouterProvider.otherwise("/app/dashboard");
 
         $stateProvider.state('app', {
             url: "/app",

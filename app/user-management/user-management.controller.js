@@ -396,7 +396,7 @@
 
         vm.openPaytmModal = function (row) {
             var modalInstance = $uibModal.open({
-                templateUrl: 'addPoints.html',
+                templateUrl: 'removePoints.html',
                 controller: 'addPaytmPointsCtrl',
                 resolve: {
                     items: function () {

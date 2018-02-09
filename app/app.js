@@ -20,6 +20,7 @@ var app = angular.module('app' , [
     function runApp($state , $localStorage , $http) {
         if($localStorage.__identity != undefined && $localStorage.__identity.token)
             $http.defaults.headers.common['Authorization'] = 'Bearer ' + $localStorage.__identity.token;
+
         $state.transitionTo('auth.login');
     }
 }())
