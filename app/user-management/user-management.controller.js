@@ -19,7 +19,10 @@
                     vm.masterUserList = response.data.data;
                     for(var index=0 ; index<vm.masterUserList.length ; index++){
                         if(vm.masterUserList[index].role != USER_ROLE.ROLE_ADMIN){
+                            if(vm.masterUserList[index].profilePic && !vm.masterUserList[index].fbLogin)
                             vm.masterUserList[index].profilePic = __env.dataServerUrl + '/user/' + vm.masterUserList[index].profilePic;
+                            if(vm.masterUserList[index].fbLogin)
+                                vm.masterUserList[index].profilePic = 'http://graph.facebook.com/' + vm.masterUserList[index].profilePic + '/picture?width=270&height=270';
                             vm.userList.push(vm.masterUserList[index])
                         }
                     }
@@ -51,7 +54,10 @@
                 if (response.status == 200) {
                     vm.completedpayment = response.data.data;
                     for(var index=0 ; index<vm.completedpayment.length ; index++){
+                        if(vm.completedpayment[index].userId.profilePic && !vm.completedpayment[index].fbLogin)
                         vm.completedpayment[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.completedpayment[index].userId.profilePic;
+                        if(vm.completedpayment[index].fbLogin)
+                            vm.completedpayment[index].profilePic = 'http://graph.facebook.com/' + vm.completedpayment[index].profilePic + '/picture?width=270&height=270';
                         vm.completedpayment[index].name = vm.completedpayment[index].userId.name;
                         vm.completedpayment[index].mobile = vm.completedpayment[index].userId.mobile;
                         vm.completedpayment[index].points = vm.completedpayment[index].userId.points;
@@ -85,7 +91,10 @@
                 if (response.status == 200) {
                     vm.bankUsers = response.data.data;
                     for(var index=0 ; index<vm.bankUsers.length ; index++){
+                        if(vm.bankUsers[index].userId.profilePic && !vm.bankUsers[index].fbLogin)
                         vm.bankUsers[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.bankUsers[index].userId.profilePic;
+                        if(vm.bankUsers[index].fbLogin)
+                            vm.bankUsers[index].profilePic = 'http://graph.facebook.com/' + vm.bankUsers[index].profilePic + '/picture?width=270&height=270';
                         vm.bankUsers[index].name = vm.bankUsers[index].userId.name;
                         vm.bankUsers[index].mobile = vm.bankUsers[index].userId.mobile;
                         vm.bankUsers[index].points = vm.bankUsers[index].userId.points;
@@ -119,7 +128,10 @@
                 if (response.status == 200) {
                     vm.paytmUsers = response.data.data;
                     for(var index=0 ; index<vm.paytmUsers.length ; index++){
+                        if(vm.paytmUsers[index].userId.profilePic && !vm.paytmUsers[index].fbLogin)
                         vm.paytmUsers[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.paytmUsers[index].userId.profilePic;
+                        if(vm.paytmUsers[index].fbLogin)
+                            vm.paytmUsers[index].profilePic = 'http://graph.facebook.com/' + vm.paytmUsers[index].profilePic + '/picture?width=270&height=270';
                         vm.paytmUsers[index].name = vm.paytmUsers[index].userId.name;
                         vm.paytmUsers[index].mobile = vm.paytmUsers[index].userId.mobile;
                         vm.paytmUsers[index].points = vm.paytmUsers[index].userId.points;
