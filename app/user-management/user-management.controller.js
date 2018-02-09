@@ -18,8 +18,10 @@
                     console.log(response)
                     vm.masterUserList = response.data.data;
                     for(var index=0 ; index<vm.masterUserList.length ; index++){
-                        if(vm.masterUserList[index].role != USER_ROLE.ROLE_ADMIN)
+                        if(vm.masterUserList[index].role != USER_ROLE.ROLE_ADMIN){
+                            vm.masterUserList[index].profilePic = __env.dataServerUrl + '/user/' + vm.masterUserList[index].profilePic;
                             vm.userList.push(vm.masterUserList[index])
+                        }
                     }
                     listView();
                     ngNotify.set('User list generated');
@@ -49,6 +51,7 @@
                 if (response.status == 200) {
                     vm.completedpayment = response.data.data;
                     for(var index=0 ; index<vm.completedpayment.length ; index++){
+                        vm.completedpayment[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.completedpayment[index].userId.profilePic;
                         vm.completedpayment[index].name = vm.completedpayment[index].userId.name;
                         vm.completedpayment[index].mobile = vm.completedpayment[index].userId.mobile;
                         vm.completedpayment[index].points = vm.completedpayment[index].userId.points;
@@ -82,6 +85,7 @@
                 if (response.status == 200) {
                     vm.bankUsers = response.data.data;
                     for(var index=0 ; index<vm.bankUsers.length ; index++){
+                        vm.bankUsers[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.bankUsers[index].userId.profilePic;
                         vm.bankUsers[index].name = vm.bankUsers[index].userId.name;
                         vm.bankUsers[index].mobile = vm.bankUsers[index].userId.mobile;
                         vm.bankUsers[index].points = vm.bankUsers[index].userId.points;
@@ -115,6 +119,7 @@
                 if (response.status == 200) {
                     vm.paytmUsers = response.data.data;
                     for(var index=0 ; index<vm.paytmUsers.length ; index++){
+                        vm.paytmUsers[index].userId.profilePic = __env.dataServerUrl + '/user/' + vm.paytmUsers[index].userId.profilePic;
                         vm.paytmUsers[index].name = vm.paytmUsers[index].userId.name;
                         vm.paytmUsers[index].mobile = vm.paytmUsers[index].userId.mobile;
                         vm.paytmUsers[index].points = vm.paytmUsers[index].userId.points;
